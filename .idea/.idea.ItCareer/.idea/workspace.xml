@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86fbf0d6-3b32-46b2-b977-32c76be0727d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ItCareer/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ItCareer/Database/DogContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ItCareer/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ItCareer/Controllers/ShopController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ItCareer/Views/Shop/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ItCareer/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ItCareer/Views/Shop/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ItCareer/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ItCareer/Views/Shop/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ItCareer/Views/Shop/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ItCareer/Views/Shop/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ItCareer/Models/Dog.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ItCareer/appsettings.json" />
+        <option value="$PROJECT_DIR$/ItCareer/Models/Dob.cs" />
+        <option value="$PROJECT_DIR$/ItCareer/Database/AppContext.cs" />
+        <option value="$PROJECT_DIR$/ItCareer/Database/DogContext.cs" />
+        <option value="$PROJECT_DIR$/ItCareer/Views/Dogs/Index.cshtml.cs" />
+        <option value="$PROJECT_DIR$/ItCareer/Views/Dogs/Index.cshtml" />
+        <option value="$PROJECT_DIR$/ItCareer/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/ItCareer/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/ItCareer/Views/Shop/Edit.cs" />
+        <option value="$PROJECT_DIR$/ItCareer/Views/Shop/EDit.cshtml" />
+        <option value="$PROJECT_DIR$/ItCareer/Views/Shop/Delete.cshtml" />
+        <option value="$PROJECT_DIR$/ItCareer/Views/Shop/Edit.cshtml" />
+        <option value="$PROJECT_DIR$/ItCareer/Views/Shop/Create.cshtml" />
+        <option value="$PROJECT_DIR$/ItCareer/Controllers/ShopController.cs" />
+        <option value="$PROJECT_DIR$/ItCareer/Models/Dog.cs" />
+        <option value="$PROJECT_DIR$/ItCareer/Startup.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cb1srDnSPoUW0TUyCzQ40Dauqf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.ItCareer">
+    <configuration name="ItCareer" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ItCareer/ItCareer.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="ItCareer" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItCareer: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ItCareer/ItCareer.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86fbf0d6-3b32-46b2-b977-32c76be0727d" name="Default Changelist" comment="" />
+      <created>1590782689440</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590782689440</updated>
+      <workItem from="1590782694187" duration="3563000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="2338" y="746" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590786251669">
+      <screen x="1920" y="535" width="1920" height="1080" />
+    </state>
+    <state x="2338" y="746" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.535.1920.1080/0.562.1920.518@1920.535.1920.1080" timestamp="1590786251669" />
+    <state width="1874" height="353" key="GridCell.Tab.0.bottom" timestamp="1590786256995">
+      <screen x="1920" y="535" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="353" key="GridCell.Tab.0.bottom/1920.535.1920.1080/0.562.1920.518@1920.535.1920.1080" timestamp="1590786256995" />
+    <state width="1874" height="353" key="GridCell.Tab.0.center" timestamp="1590786256995">
+      <screen x="1920" y="535" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="353" key="GridCell.Tab.0.center/1920.535.1920.1080/0.562.1920.518@1920.535.1920.1080" timestamp="1590786256995" />
+    <state width="1874" height="353" key="GridCell.Tab.0.left" timestamp="1590786256995">
+      <screen x="1920" y="535" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="353" key="GridCell.Tab.0.left/1920.535.1920.1080/0.562.1920.518@1920.535.1920.1080" timestamp="1590786256995" />
+    <state width="1874" height="353" key="GridCell.Tab.0.right" timestamp="1590786256995">
+      <screen x="1920" y="535" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="353" key="GridCell.Tab.0.right/1920.535.1920.1080/0.562.1920.518@1920.535.1920.1080" timestamp="1590786256995" />
+    <state width="1874" height="353" key="GridCell.Tab.1.bottom" timestamp="1590786256996">
+      <screen x="1920" y="535" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="353" key="GridCell.Tab.1.bottom/1920.535.1920.1080/0.562.1920.518@1920.535.1920.1080" timestamp="1590786256996" />
+    <state width="1874" height="353" key="GridCell.Tab.1.center" timestamp="1590786256996">
+      <screen x="1920" y="535" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="353" key="GridCell.Tab.1.center/1920.535.1920.1080/0.562.1920.518@1920.535.1920.1080" timestamp="1590786256996" />
+    <state width="1874" height="353" key="GridCell.Tab.1.left" timestamp="1590786256996">
+      <screen x="1920" y="535" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="353" key="GridCell.Tab.1.left/1920.535.1920.1080/0.562.1920.518@1920.535.1920.1080" timestamp="1590786256996" />
+    <state width="1874" height="353" key="GridCell.Tab.1.right" timestamp="1590786256996">
+      <screen x="1920" y="535" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="353" key="GridCell.Tab.1.right/1920.535.1920.1080/0.562.1920.518@1920.535.1920.1080" timestamp="1590786256996" />
+    <state x="2544" y="522" key="run.anything.popup" timestamp="1590783977570">
+      <screen x="1920" y="535" width="1920" height="1080" />
+    </state>
+    <state x="2544" y="522" key="run.anything.popup/1920.535.1920.1080/0.562.1920.518@1920.535.1920.1080" timestamp="1590783977570" />
+    <state x="2544" y="735" width="672" height="676" key="search.everywhere.popup" timestamp="1590785814337">
+      <screen x="1920" y="535" width="1920" height="1080" />
+    </state>
+    <state x="2544" y="735" width="672" height="676" key="search.everywhere.popup/1920.535.1920.1080/0.562.1920.518@1920.535.1920.1080" timestamp="1590785814337" />
+  </component>
+</project>

@@ -1,0 +1,17 @@
+@model ItCareer.Models.Dog
+
+@{
+    Layout = "_Layout";
+    int id = Model.Id;
+}
+
+    <form method="post" asp-action="EditADog" asp-route-id="@id">
+        <h1>Name:</h1>
+        <input asp-for="Name" value="@Model.Name" />
+        <h1>Breed:</h1>
+        <input asp-for="Breed" value="@Model.Breed" />
+        <h5>Enter age:</h5>
+        <input asp-for="Age" value="@Model.Age"/>
+
+        <input type="submit" value="Edit" />
+    </form>
