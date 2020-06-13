@@ -16,6 +16,36 @@ namespace ItCareer.Migrations
                 .HasAnnotation("ProductVersion", "3.1.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("ItCareer.Models.Breed", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Breeds");
+                });
+
+            modelBuilder.Entity("ItCareer.Models.Colour", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Colours");
+                });
+
             modelBuilder.Entity("ItCareer.Models.Dog", b =>
                 {
                     b.Property<int>("Id")
@@ -25,9 +55,11 @@ namespace ItCareer.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("int");
 
-                    b.Property<string>("Breed")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<int>("BreedId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ColourId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -35,7 +67,26 @@ namespace ItCareer.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("BreedId");
+
+                    b.HasIndex("ColourId");
+
                     b.ToTable("Dogs");
+                });
+
+            modelBuilder.Entity("ItCareer.Models.Dog", b =>
+                {
+                    b.HasOne("ItCareer.Models.Breed", "Breed")
+                        .WithMany("Dogs")
+                        .HasForeignKey("BreedId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ItCareer.Models.Colour", "Colour")
+                        .WithMany("DogWithcolour")
+                        .HasForeignKey("ColourId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

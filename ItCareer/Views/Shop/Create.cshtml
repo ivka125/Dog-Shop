@@ -1,15 +1,17 @@
-@model ItCareer.Models.Dog
+@model ItCareer.Models.DogDto
 
 @{
     Layout = "_Layout";
 }
-<form method="post" asp-action="CreateADog">
-    <h5>Enter name:</h5>
-    <input asp-for="Name"/>
-    <h5>Enter breed:</h5>
-    <input asp-for="Breed"/>
-    <h5>Enter age:</h5>
-    <input asp-for="Age"/>
-    
-    <input class="btn btn-outline-primary" type="submit" value="Create"/>
-</form>
+    <form method="post" asp-action="CreateADog">
+        <h5>Enter name:</h5>
+        <input asp-for="@Model.Name" />
+        <h5>Enter age:</h5>
+        <input asp-for="@Model.Age" />
+        <h5>Enter breed:</h5>
+        <input asp-for="@Model.BreedName" />
+        <h5>Enter colour:</h5>
+        <input asp-for="@Model.ColourName" />
+
+        <input class="btn btn-outline-primary" type="submit" value="Create" />
+    </form>

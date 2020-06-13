@@ -2,16 +2,13 @@
 
 @{
     Layout = "_Layout";
-    int id = Model.Id;
 }
 
-<form method="post" asp-action="DeleteADog" asp-route-id="@id">
-    <h5>Name:</h5>
-    <input asp-for="Name" value="@Model.Name" readonly="readonly">
-    <h5>Breed:</h5>
-    <input asp-for="Breed" value="@Model.Breed" readonly="readonly">
-    <h5>Age:</h5>
-    <input asp-for="Age" value="@Model.Age" readonly="readonly">
-    
-    <input class="btn btn-outline-primary" type="submit" value="DELETE"/>
-</form>
+    <form method="post" asp-action="DeleteADog" asp-route-id="@Model.Id">
+        <h5>Name: @Model.Name</h5>
+        <h5>Age: @Model.Age</h5>
+        <h5>Breed: @Model.Breed.Name</h5>
+        <h5>Colour: @Model.Colour.Name</h5>
+
+        <button class="btn btn-outline-primary btn-danger" type="submit">CONFIRM</button>
+    </form>

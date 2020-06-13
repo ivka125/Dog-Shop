@@ -1,0 +1,17 @@
+@model IEnumerable<ItCareer.Models.Dog>
+
+@{
+    Layout = "_Layout";
+}
+
+@foreach(var dog in Model)
+{
+    <h5>Name: @dog.Name</h5>
+    <h5>Age: @dog.Age</h5>
+    <h5>Breed: @dog.Breed.Name</h5>
+    <h5>Colour: @dog.Colour.Name</h5>
+    <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@dog.Id">Edit</a>
+    <a class="btn btn-outline-primary alert-danger" asp-action="Delete" asp-route-id="@dog.Id">Delete</a>
+}
+<br/>
+<a class="btn btn-outline-primary" asp-action="Create">Create</a>

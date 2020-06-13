@@ -1,17 +1,16 @@
-@model ItCareer.Models.Dog
+@model ItCareer.Models.DogDto
 
-@{
-    Layout = "_Layout";
-    int id = Model.Id;
-}
+@{ Layout = "_Layout"; }
 
-    <form method="post" asp-action="EditADog" asp-route-id="@id">
-        <h1>Name:</h1>
-        <input asp-for="Name" value="@Model.Name" />
-        <h1>Breed:</h1>
-        <input asp-for="Breed" value="@Model.Breed" />
-        <h5>Enter age:</h5>
-        <input asp-for="Age" value="@Model.Age"/>
+<form method="post" asp-action="EditADog" asp-route-id="@Model.Id">
+    <h5>Enter name:</h5>
+    <input asp-for="@Model.Name" value="@Model.Name" />
+    <h5>Enter age:</h5>
+    <input asp-for="@Model.Age" value="@Model.Age" />
+    <h5>Enter breed:</h5>
+    <input asp-for="@Model.BreedName" value="@Model.BreedName" />
+    <h5>Enter colour:</h5>
+    <input asp-for="@Model.ColourName" value="@Model.ColourName" />
 
-        <input type="submit" value="Edit" />
-    </form>
+    <button type="submit" class="btn btn-outline-primary">Save</button>
+</form>

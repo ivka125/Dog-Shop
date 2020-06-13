@@ -1,0 +1,25 @@
+﻿@model ItCareer.Models.Breed
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "_Layout";
+}
+    <div>
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+        </dl>
+
+        <form method="post" asp-action="DeleteABreed" asp-route-id="@Model.Id">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+        </form>
+    </div>
+
+<div>
+    <a asp-action="ShowAllDogs">Back to List</a>
+</div>
+
